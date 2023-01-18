@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latihan Dom</title>
+    <style>
+    html, body {
+      height: 100%;
+    }
+      body {
+        text-align: center;
+      }
+      .kotak {
+        width: 20px;
+        height: 20px;
+        margin: 5px auto;
+      }
+      .merah {
+        background-color: red;
+      }
+      .hijau {
+        background-color: green;
+      }
+      .biru {
+        background-color: blue;
+      }
+      .grey {background-color:gold;}
+    </style>
+    </head>
+    <body>
+      <h1>Balajar Mewarnai</h1>
+      <button type="button" id="tombolBackground">Ubah Background</button>
+      <br><br>
+      <div class="kotak merah"></div>
+      <input type="range" name="sMerah" min="0" max="255">
+      <div class="kotak hijau"></div>
+      <input type="range" name="sHijau" min="0" max="255">
+      <div class="kotak biru"></div>
+      <input type="range" name="sBiru" min="0" max="255">
+      
+      
+      <script src="Dscript.js"></script>
+    </body>
+</html>
